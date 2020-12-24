@@ -1,0 +1,50 @@
+.fp1{
+    font-family: verdana, arial, helvetica;
+}
+
+.fp2{
+
+    font-style: italic;
+}
+
+.fp3{
+    font-variant: normal;
+}
+
+.fp4{
+    font-variant: small-caps;
+}
+.fp5{
+    font-weight: normal;
+}
+.fp6{
+    font-weight: lighther;
+}
+.fp7{
+   font-weight:bold; 
+}
+.fp8{
+    font-weight: 800;
+}
+.fp9{
+    font-size: normal;
+}
+.fp10{
+    font-size:xx-small;
+}
+
+.fp11{
+    font-size:50px;
+}
+
+p{
+    letter-spacing:5px;
+    text-decoration: underline;
+    font-size: xx-large;
+    text-align: right;
+    text-transform: uppercase;
+    line-height:3;
+    word-spacing: 2px;
+    color: rgb(59, 209, 0);
+
+}

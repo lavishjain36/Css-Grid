@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Grid[Grid Concept]</title>
+    <Style>
+
+       
+        .container1{
+           display:grid;
+           grid-template-columns: repeat(4,1fr);
+           grid-gap: 1em;
+           grid-auto-rows: minimax(100px,auto);
+           justify-content:center;
+           align-items:end;
+
+        }
+
+        .container1>div{
+            padding:1em;
+            background-color:rgb(255, 0, 170)
+        }
+        .container1>div:nth-child(even){
+            background-color:rgb(255, 102, 0);
+        }
+        
+        #div1{
+            display:grid;
+            grid-template-columns: repeat(2,1fr);
+            align-items:center;
+            justify-items: center;
+        }
+
+    </Style>
+</head>
+<body>
+    <div class="container1">
+    <div id="div1">
+        <div>Lorem Ipsum</div>
+        <div>Lorem Ipsum</div>
+        <div>Lorem Ipsum</div>
+    </div>
+   
+    
+        <div>Lorem1</div>
+        <div>Lorem2</div>
+        <div>Lorem3</div>
+        <div>Lorem4</div>
+        <div>Lorem5</div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Grid[Grid Concept]</title>
+    <Style>
+
+        .container {
+           display:grid;
+           grid-template-columns: repeat(4,1fr);
+           grid-gap: 1em;
+           grid-auto-rows: minimax(100px,auto);
+           justify-content:end;
+           align-items:end;
+          
+        }
+
+        .container>div{
+            padding:1em;
+            background-color:rgb(55, 0, 255)
+        }
+        .container>div:nth-child(even){
+            background-color:rgb(255, 102, 0);
+        }
+        .container1{
+           display:grid;
+           grid-template-columns: repeat(4,1fr);
+           grid-gap: 1em;
+           grid-auto-rows: minimax(100px,auto);
+           justify-content:center;
+           align-items:end;
+
+        }
+
+        .container1>div{
+            padding:1em;
+            background-color:rgb(255, 0, 170)
+        }
+        .container1>div:nth-child(even){
+            background-color:rgb(255, 102, 0);
+        }
+
+
+    </Style>
+</head>
+<body>
+    <div class="container">
+        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, ex!</div>
+        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, ex!</div>
+        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, ex!</div>
+        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, ex!</div>
+        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, ex!</div>
+    </div>
+
+    <div class="container1">
+        <div> Aut, ex!</div>
+        <div> Aut, ex!</div>
+        <div> Aut, ex!</div>
+        <div> Aut, ex!</div>
+        <div> Aut, ex!</div>
+    </div>
+    
+</body>
+</html>

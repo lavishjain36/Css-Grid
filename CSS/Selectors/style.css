@@ -1,0 +1,18 @@
+*{
+    color:red;
+}
+
+h1,h2,p{
+    color:orangered;
+}
+#idname{
+    color:darkblue;
+}
+
+.class1{
+    font-weight:bold;
+    color:brown;
+}
+
+
+
